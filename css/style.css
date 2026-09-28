@@ -14,6 +14,20 @@ body{
     justify-content: center;
 }
 
+.menu-dois{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-bottom: 10px;
+    list-style: none;
+    justify-content: end;
+}
+
+hr{
+    margin: 30px;
+}
+
 .nav-pag {
     display: flex;
     justify-content: space-between;
