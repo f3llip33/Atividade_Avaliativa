@@ -35,13 +35,36 @@ h1{
     color: royalblue;
 }
 
-.footer-info{
+.footer{
+    width: 100%;
     background-color: #dcdcdc;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.footer-info{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 22px;
     
 }
 
 .footer-info p{
-    margin: 80px;
+    margin: 0 0 15px 0;
     color: #696969;
+    font-size: 11px;
+    line-height: 1.5;
     
+}
+
+.footer-info p:last-child {
+    margin-bottom: 0;
+}
+
+.footer-info a {
+    color: #0066cc;            
+    text-decoration: underline;
+}
+
+.footer-info a:hover {
+    text-decoration: none;
 }
